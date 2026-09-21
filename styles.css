@@ -10,14 +10,35 @@
    - C.R.A.P.    → check contrast, repetition, alignment, proximity
    ========================================================= */
 
+   /* I pick this font parning becuse it make the page look batter by puting code close togetheir. */
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+
+
 * {
   box-sizing: border-box;
 }
+
+h1,h2,h3,h4,h5,h6 {
+line-height:1.5;
+}
+
+
+p,li,a {
+line-height:1.4;
+}
+
+
 
 body {
   margin: 0;
   font-family: sans-serif;
   color: #222;
+ 
 }
 
 header {
@@ -50,6 +71,7 @@ nav a {
   flex: 1;
 }
 
+
 .image-placeholder {
   background: #cccccc;
   height: 200px;
@@ -58,9 +80,16 @@ nav a {
   justify-content: center;
   color: #666;
 }
-
+#about h2:hover{
+  color: darkblue;
+}
 .meetings {
   padding: 40px 24px;
+}
+
+
+.meetings:hover {
+  color: darkblue ;
 }
 
 .testimonials {
@@ -71,6 +100,8 @@ nav a {
 .signup {
   padding: 40px 24px;
 }
+
+
 
 .signup form {
   max-width: 300px;
@@ -91,6 +122,10 @@ nav a {
 .signup button {
   margin-top: 16px;
   padding: 8px 16px;
+}
+.signup button:hover {
+  background-color: #333;
+  color: white;
 }
 
 footer {
